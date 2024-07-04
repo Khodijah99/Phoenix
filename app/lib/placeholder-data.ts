@@ -46,6 +46,25 @@ const customers = [
     email: 'balazs@orban.com',
     image_url: '/customers/balazs-orban.png',
   },
+  {
+    id: '8360b70d-9d7d-49e1-a858-5ccdf597c655',
+    name: 'Michael Jackson',
+    email: 'michael@jackson.com',
+    image_url: '/customers/michael-jackson.jpeg',
+  },
+  {
+    id: 'e8390561-09bf-49bf-b6e3-aaf3e32dd444',
+    name: 'Laide Bakare',
+    email: 'laide@bakare.com',
+    image_url: '/customers/laide-bakare.jpeg',
+  },
+  {
+    id: '44062a3a-599b-4279-8e53-2c1bac1ebfdb',
+    name: 'Alade Omoba',
+    email: 'alade@omoba.com',
+    image_url: '/customers/alade-omoba.jpeg',
+  },
+ 
 ];
 
 const invoices = [
@@ -127,6 +146,25 @@ const invoices = [
     status: 'paid',
     date: '2022-06-05',
   },
+  {
+    customer_id: customers[8].id,
+    amount: 97800,
+    status: 'paid',
+    date: '2023-10-10',
+  },
+  {
+    customer_id: customers[7].id,
+    amount: 44800,
+    status: 'paid',
+    date: '2023-09-10',
+  },
+  {
+    customer_id: customers[6].id,
+    amount: 44800,
+    status: 'paid',
+    date: '2023-09-10',
+  },
+  
 ];
 
 const revenue = [
